@@ -24,4 +24,4 @@ end
 # end
 
 
-find_element_index([1,2,3,4], 0)
+find_element_index([1,2,3,4], 4)
