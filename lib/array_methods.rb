@@ -2,16 +2,16 @@ def find_element_index(array, value_to_find)
   # Add your solution here
   
   counter = 0 
-  p array.include?(value_to_find)
-  # while counter < array.length do
-  #   if array.include?(value_to_find) == true 
-  #     p array[value_to_find]
-  #   else 
-  #     puts nil 
-  #   end 
+  
+  while counter < array.length do
+    if array.include?(value_to_find) == true 
+      p counter
+    else 
+      puts nil 
+    end 
      
-  #   counter += 1
-  # end 
+    counter += 1
+  end 
      
 end
 
@@ -24,4 +24,4 @@ end
 # end
 
 
-find_element_index([1,2,3,4], 0)
+find_element_index([1,2,3,4], 4)
