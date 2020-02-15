@@ -33,4 +33,4 @@ end
 #   # Add your solution here
 # end
 
-fi
+find_max_value([500,4,1000,5,250])
