@@ -1,19 +1,19 @@
-# def find_element_index(array, value_to_find)
-#   # Add your solution here
+def find_element_index(array, value_to_find)
+  # Add your solution here
   
-#   counter = 0 
+  counter = 0 
   
-#   while counter < array.length do
-#     if array[counter] == value_to_find 
-#       puts array.find_index(value_to_find)
-#     else 
-#       puts nil 
-#     end 
+  while counter < array.length do
+    if array[counter] == value_to_find 
+      puts array.find_index(value_to_find)
+    else 
+      puts nil 
+    end 
      
-#     counter += 1
-#   end 
+    counter += 1
+  end 
      
-# end
+end
 
 def find_max_value(array)
   # Add your solution here
@@ -36,4 +36,4 @@ end
 #   # Add your solution here
 # end
 
-find_max_value([1,2,1,3,4,3,5,4,3,2,1])
+# find_max_value([1,2,1,3,4,3,5,4,3,2,1])
