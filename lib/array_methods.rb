@@ -3,20 +3,16 @@ def find_element_index(array, value_to_find)
   
   counter = 0 
   
-  while counter <array.length do
-    
-    
+  while counter < array.length do
+    if array.include?(value_to_find) == true 
+      puts array[value_to_find]
+    else 
+      puts nil 
+    end 
+     
     counter += 1
   end 
-  # while array[counter] do
-  #   if array.include?(value_to_find)
-  #     array[counter]
-  #   else
-  #     puts nil
-  #   end
-    
-  #   counter+=1
-  # end 
+   
      
 end
 
