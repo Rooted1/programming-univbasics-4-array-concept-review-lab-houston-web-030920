@@ -5,7 +5,7 @@ def find_element_index(array, value_to_find)
   
   while counter < array.length do
     if array.include?(value_to_find) == true 
-      p counter
+      p array.find_index(value_to_find)
     else 
       puts nil 
     end 
