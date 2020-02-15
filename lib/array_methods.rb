@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
   
   while counter < array.length do
     if array[counter] == value_to_find 
-      return array.find_index(value_to_find)
+      return array.find_index(value_to_find) # or return counter
     end 
      
     counter += 1
@@ -46,5 +46,3 @@ def find_min_value(array)
   end
   return min_value
 end
-
-# find_max_value([1,2,1,3,4,3,5,4,3,2,1])
